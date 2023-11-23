@@ -1,9 +1,9 @@
 import React from 'react'
-import style from './themeToggle.module.css'
+import styles from './themeToggle.module.css'
 
 const ThemeToggle = () => {
   return (
-    <div className={style.container}>ThemeToggle</div>
+    <div className={styles.container}>ThemeToggle</div>
   )
 }
 
