@@ -9,7 +9,9 @@ const Footer = () => {
       <div className={styles.info}>
         <div className={styles.logo}>
           <Image src="/logo.png" alt="Aditria Pardana" width={50} height={50} />
-          <h1 className={styles.logoText}>GoBlogs</h1>
+          <h1 className={styles.logoText}>
+            <span style={{ color: "crimson" }}>Go</span>Blogs
+          </h1>
         </div>
         <p className={styles.desc}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate id
